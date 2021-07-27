@@ -37,7 +37,7 @@ if facesCnt > 0:
         # 얼굴 위치 값을 가져오기
         x, y, w, h = face
 
-        # 이모티콘 이미즈를 얼굴 영역 크기의 사이즈로 변경하며, 얼굴 영역 크기에 맞추고,
+        # 이모티콘 이미지를 얼굴 영역 크기의 사이즈로 변경하며, 얼굴 영역 크기에 맞추고,
         # 얼굴 영역 이미지를 이모티콘 이미지로 변경
         face_image = cv2.resize(emoticon_image, (w, h), interpolation=cv2.INTER_AREA)
 
